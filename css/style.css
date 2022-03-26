@@ -1038,3 +1038,12 @@ body {
     gap: 50px 0px;
   }
 }
+@media (min-width: 767.98px) {
+  .footer__link {
+    transition: all 0.3s ease 0s;
+  }
+  .footer__link:hover {
+    letter-spacing: 0.1em;
+    text-shadow: 1px 1px 5px #000;
+  }
+}
